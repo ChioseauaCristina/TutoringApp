@@ -1,0 +1,24 @@
+include: package:very_good_analysis/analysis_options.2.4.0.yaml
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+    todo: ignore
+  exclude:
+    - "**/src/rx.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+
+linter:
+  rules:
+    always_put_control_body_on_new_line: true
+    always_specify_types: true
+    avoid_implementing_value_types: true
+    depend_on_referenced_packages: true
+    lines_longer_than_80_chars: false
+    omit_local_variable_types: false
+    prefer_foreach: true
+    public_member_api_docs: false
+    unnecessary_constructor_name: true
+    unsafe_html: true
+    use_test_throws_matchers: true

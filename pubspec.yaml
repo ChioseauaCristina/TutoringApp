@@ -1,0 +1,40 @@
+name: movie_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  animated_text_kit: ^4.1.1
+  cloud_firestore: ^3.1.14
+  cupertino_icons: ^1.0.4
+  firebase_auth: ^3.3.17
+  firebase_core: ^1.16.0
+  flutter:
+    sdk: flutter
+  flutter_redux: ^0.9.0
+  freezed_annotation: ^1.1.0
+  http: ^0.13.4
+  json_annotation: ^4.5.0
+  redux: ^5.0.0
+  redux_epics: ^0.15.1
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  build_runner: ^2.1.10
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  freezed: ^1.1.1
+  json_serializable: ^6.2.0
+  mocktail: ^0.3.0
+  very_good_analysis: ^2.4.0
+
+dependency_overrides:
+  analyzer: ^4.0.0
+
+flutter:
+  uses-material-design: true
